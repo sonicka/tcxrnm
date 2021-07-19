@@ -41,7 +41,7 @@ zip.on("ready", () => {
 // close zip after processing
 zip.on("end", () => zip.close());
 
-// read file, get actual date, chech if has gps data, adjust file name
+// read file, get actual date, check if has gps data, adjust file name
 function readFile(filename) {
   fs.readFile(filename, "utf-8", function (err, data) {
     parser.parseString(data, function (err, result) {
