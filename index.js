@@ -1,7 +1,3 @@
-// ctrl alt j - choose language
-// F1 to run
-// option shift F format xml
-
 const xml2js = require("xml2js");
 var fs = require("fs");
 var StreamZip = require("node-stream-zip");
@@ -54,7 +50,7 @@ function readFile(filename) {
           `Unzipped/${gpsPrefix + activityTime}.tcx`,
           function (err) {
             if (err) console.log("ERROR: " + err);
-          }
+          },
         );
       }
     });
