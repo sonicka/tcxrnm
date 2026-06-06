@@ -1,17 +1,18 @@
 {
-  "name": "strava-script",
+  "name": "tcxrnm",
   "version": "1.0.0",
-  "description": "",
-  "main": "json-script.js",
+  "description": "A small Node.js script that extracts and renames .tcx workout files exported from Strava.",
+  "main": "index.js",
   "dependencies": {
     "node-stream-zip": "^1.13.4",
     "xml2js": "^0.4.23"
   },
   "devDependencies": {},
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "sonicka",
   "license": "ISC"
 }
